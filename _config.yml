@@ -4,12 +4,12 @@
 #url: "https://gitlab.com/iiioxoiii/"
 #baseurl: "/video-classroom"
 
-url: "https://github.com/iiioxoiii/video-classroom-fp"
-baseurl: ""
+url: "https://github.com/iiioxoiii/"
+baseurl: "/video-classroom-fp"
 
 
 title: "Video-Classroom-fp" # the name of your site, e.g. ACME Corp.
-siteimage: "/video-classroom-fp/images/vuemastery" ## Icona de la esquerra del site
+siteimage: "images/vuemastery" ## Icona de la esquerra del site
 email: "formacioalescola@xtec.cat"
 author: "FormacioProfessional"
 
