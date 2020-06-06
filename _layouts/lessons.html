@@ -60,7 +60,7 @@
               <div class="item-llicons-onpage">
               {% assign llico = lesson.lessonnumber %}
             {% else %}
-              <div class="item-llicons" onclick="location.href='{{ lesson.url }}';">
+              <div class="item-llicons" onclick="location.href='{{ site.baseurl }}{{ lesson.url }}';">
             {% endif %}
 
               <div class="text-item">
@@ -112,7 +112,7 @@
           <div class="anterior">
             {% for lesson in lessons %}
             {% if lesson.lessonnumber == llicoanterior %}
-              <a href="{{ lesson.url }}"><< anterior</a>
+              <a href="{{ site.baseurl }}{{ lesson.url }}"><< anterior</a>
             {% endif %}
           {% endfor %}
           </div>
@@ -124,7 +124,7 @@
           <div class="posterior">
             {% for lesson in lessons %}
               {% if lesson.lessonnumber == llicoseguent %}
-              <a href="{{ lesson.url }}">següent >></a>
+              <a href="{{ site.baseurl }}{{ lesson.url }}">següent >></a>
               {% endif %}
             {% endfor %}
           </div>
