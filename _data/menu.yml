@@ -1,0 +1,8 @@
+- pagina: inici 
+  url: /index.html
+
+- pagina: moodle
+  url: https://educaciodigital.cat/ea-llotja/moodle/
+
+- pagina: about
+  url: /about.html

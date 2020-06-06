@@ -1,0 +1,713 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$zero: 0px;
+$titolcurs: #091221;
+$linkvist: #279200;
+
+
+
+@import
+url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+
+.container {
+    height: 100%; 
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 400px;
+    grid-template-rows: 100px 680px auto 100px 300px; 
+}
+
+
+
+.paginacio{
+	padding-top: 32px;
+	border-top:1px solid #cccccc;
+	grid-column: 5 / 5;
+	grid-column-start: 1;
+	display: block;
+
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight:900;
+	color: #378f49;
+}
+
+.paginacio a{
+	text-decoration: none;
+	color: $titolcurs;
+}
+
+
+.paginacio a:hover{
+	color: #378f49;
+}
+
+
+.anterior{
+	float: left;
+	text-align: left;
+	padding-left: 60px;
+}
+
+.ordre{
+	float: left;
+	text-align: center;
+	width: 70%;
+
+}
+
+.posterior{
+	float: left;
+	text-align: left;
+
+}
+
+
+.container .none {
+	display: flex;
+}
+
+.container .header-logo {
+    grid-column: 1;
+  	align-content: left;
+}
+
+.container .titol-curs{
+	padding-top: 23px;
+    padding-left: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
+	grid-column: 1 / 5;
+	font-size: 3em;
+	color: #ffffff;
+}
+
+.logo {
+	grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+
+.content {
+	font-family: 'Source Sans Pro', sans-serif;
+	grid-column: 1 / 4;
+    font-size: 24px;
+   	padding-left: 40px;
+
+	letter-spacing: 0px;
+	margin-bottom: 65px;
+	word-spacing: 0.6px;
+    padding-top: 45px;
+	color: #0a2b4e;
+}
+
+.footer {
+    grid-column: 1 / 5;
+    font-size: 1em;
+    align-content: center;
+    background: #091221;    
+    height: 300px;
+
+
+}
+
+.footer-logo{
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+
+#logo-footer{
+    margin-bottom: 10px;
+}
+
+.text-caixa-contacte{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	font-weight:400;
+	color: #ffffff;
+	line-height: 23px;
+}
+
+.video {
+    grid-column: 1 / 4;
+    border-right:1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+
+    position:relative;
+    width: 100%;
+    height: 100%; 
+}
+
+
+.video iframe{
+    position: absolute;
+    top:0;
+    position:relative;
+	left: 0;
+}
+
+
+.container #titol-llicons h1{
+	margin-left: 15px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	font-weight:700;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 31.5px;
+}
+
+
+.llicons {
+    grid-column: 4 / 4;
+    border-bottom: 1px solid #cacaca;
+}
+
+#titol-llicons{
+	border-bottom: 1px solid #cacaca;
+
+}
+
+.item-llicons {
+	border-bottom: 1px solid #cacaca;
+	cursor: pointer;	
+
+}
+
+
+.item-llicons-onpage {
+	background: linear-gradient(to top right, #21a782, #86d169);
+    border-bottom: 1px solid #cacaca;
+}
+
+
+.item-llicons:hover{
+	color: #fefefe;
+    background: linear-gradient(to top right, #21a782, #86d169);
+}
+
+
+
+
+.container .temps-bloc{
+	margin-top:8px;
+	margin-bottom:10px;
+}
+
+
+.container .icon-temps {
+    width: 30px;
+	float:left;
+}
+
+#rellotge {
+	width: 23px;
+	height: auto;
+}
+
+
+.container .temps-text{
+	font-weight:400;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20.5px;
+}
+
+
+.text-item {
+	text-decoration: none;
+	padding-top: 5px;
+	margin-left: 20px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 27px;
+}
+
+
+.container .scroll{
+	overflow-y: scroll; 
+	height: 89.58%;
+
+
+}
+
+
+//////////////////////////////////
+
+
+/*.contenidor-cursos{
+	height: 100%; 
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 200px; 
+    border-bottom: 1px solid #cacaca;
+}*/
+
+.contenidor-cursos {
+	border-bottom: 1px solid #cacaca;
+	height: 200px
+}
+
+.header-logo{
+	float: left;
+	margin-right: 20px;
+	align-content: left;
+  	margin-top: 20px;
+  	margin-left: 50px;
+}
+
+.navegacio{
+	margin-top: 43px;
+	margin-left: 40px;
+	float: left;
+}
+
+
+.menu-item {
+	margin-top: 15px;
+	text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+
+
+}
+
+.menu-item a:link {
+	color: #050505;
+	text-decoration: none;
+
+}
+
+.menu-item a:hover {
+	color: #378f49;
+}
+
+.menu-item a:visited {
+	color:  #050505;
+}
+
+#about{
+	margin-left: 100px;
+	margin-right: 500px;
+}
+
+#about p{
+	
+	font-size: 23px; 
+	margin-left: 20px;
+	line-height: 170%;
+
+}
+
+#about h3{
+	font-size: 28px;
+	margin-left: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+
+
+
+.contenidor .none {
+	display: flex;
+}
+
+
+
+.courses-body-wrapper {
+	display: grid;
+    width: 100%;
+    grid-column-gap: 4%;
+    grid-row-gap: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #fafafa;
+
+}
+
+
+.course-info {
+	margin: 0px;
+	padding: 0px;	
+    width: 120px;
+    height: 150px;
+
+
+}
+
+
+.course-card {
+	grid-template-areas:
+        "course-badge course-heading course-heading"
+        "course-badge course-info course-content";
+
+    max-width: 1000px;
+
+    text-decoration: none;
+
+	display: grid;
+	padding: 36px;
+	list-style: none;
+
+  	transition: 0.3s;
+
+  	position: relative;
+  	top: 0;
+  	filter: blur(0px);
+
+
+
+}
+
+.course-card:hover {
+	box-shadow: 2px 17px 32px 6px rgba(179,179,179,1);
+	border-radius: 18px;
+	top: -2px;
+	transform: scale(1);
+	filter: blur(0.2px);
+}
+
+
+
+
+.course-badge{
+	grid-area: course-badge;
+	margin-right: 20px;
+}
+
+.course-heading{
+	grid-area: course-heading;
+	color: $titolcurs
+}
+
+.course-info{
+	grid-area: course-info;
+	margin-top: 10px;
+	height: 135px;
+	color: $titolcurs
+
+
+
+
+}
+
+.course-content{
+	grid-area: course-content;
+	padding-left: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+    margin-top: 10px;
+    padding-right:35px;
+    color: $titolcurs
+
+
+}
+
+
+.descripcio{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-bottom: 2px;
+	font-weight: 700;
+	color: #222;
+    font-size: 18px;
+       	padding-top: 4px;
+
+}
+
+
+.free-label{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #39b982;
+	font-size: 18px;
+}
+
+
+.descripcio p{
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #222;
+    font-size: 22px;
+   	line-height : 32px;
+}
+
+
+
+
+.icon{
+	float: left;
+
+	height: 25px;
+	weight: auto;
+	margin-bottom: 10px;
+	margin-right: 7px;
+
+}
+
+.title{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #222;
+    font-size: 54px;
+}
+
+
+
+
+
+
+
+.learning-path{
+	display: grid;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+}
+
+
+.intro{
+	margin-bottom: 1rem;
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-bottom: 32px;
+    margin: 0 auto;	
+    text-align: center;
+}
+
+.intro p {
+    text-align: center;
+}
+
+
+
+.info-item {
+	list-style: none;
+	align-items: center;
+	margin-bottom: 12px;
+
+}
+
+
+.intro p a{
+	color: #279200;
+}
+
+
+
+#link-casella{
+	text-decoration: null;
+}
+
+.text-item{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+    font-size: 26px;
+    margin-left: 22px;
+    padding-top: 9px;
+}
+
+
+
+
+
+
+.titol-curs{
+	background-color: black;	
+    padding-top: 20px;
+
+
+}
+
+
+html, body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+	font-family: Source Sans Pro,sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 13px; 
+    margin-bottom: 10px;   
+
+}
+
+
+h3 {
+	align-items: center;
+	margin-bottom: 0;
+	padding: 24px;
+	color: #0a2b4e;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:900;
+	color: $titolcurs;
+}
+
+canvas {
+	width: 180px;
+	height: 180px;
+}
+
+
+iframe {
+    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width:0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 24px;
+	line-height : 24px;
+
+
+}
+
+
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em,img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+//    margin:0;
+//    padding:0;
+//    border:0;
+    outline:0;
+//    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    color: $titolcurs
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+//    font-size:100%;
+//    vertical-align:baseline;
+//    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+
+    margin-bottom: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

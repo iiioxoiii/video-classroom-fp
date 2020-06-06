@@ -1,0 +1,43 @@
+- nom: "El Mamut Traçut (I)"
+  imatge: "images/elmamut.svg"
+  etiqueta: "Mostra del bo i millor"
+  llibre: "9 videos"
+  rellotge: "43 minuts"
+  ratlletes: "Master"
+  descripcio: "Primer bloc de bandes del segell de música «El Mamut Traçut». El segell està format per grups essencials
+              de l'escena independent catalana i també per bandes internacionals." 
+  urlprimerallico: "curs/les-atxes/"
+
+- nom: "El Mamut Traçut (II)"
+  imatge: "images/elmamut.svg"
+  etiqueta: "Segona col·lecció del bo i millor"
+  llibre: "5 videos"
+  rellotge: "17 minuts"
+  ratlletes: "Master"
+  descripcio: Primer bloc de bandes del segell de música «El Mamut Traçut». El segell està format per grups essencials
+              de l'escena independent catalana i també per bandes internacionals."
+  urlprimerallico: "curs/el-mamut-tracut-2-estruc/"
+
+- nom: "The Century of Self"
+  imatge: "images/curs03.svg"
+  etiqueta: "Marketing i Publicitat"
+  llibre: "4 episodis"
+  rellotge: "3h 56min"
+  ratlletes: "3r ESO"
+  descripcio: "La història entre Sigmund Freud i el seu nebot Endward Bernays. Bernays va 
+              inventar les relacions públiques com professió als anys 20 i va ser la ser
+              la primera persona en fer servir les idees de Freud per manipular les masses."
+  urlprimerallico: "curs/happiness-machines/"
+
+- nom: "Jekyll"
+  imatge: "images/jekyll.svg"
+  etiqueta: "Desplegament Web"
+  llibre: "19 lliçons"
+  rellotge: "3h 56min"
+  ratlletes: "DAM"
+  descripcio: "Jekyll és un framework per generar sites estàtics amb molt pocs recursos. Funciona amb Ruby i és molt útil.
+  En el curs s'estudien els conceptes bàsics que permeten fer sites amb Jekyll, és a dir, poder tenir una web totalment funcional,
+  actualitzable i amb poc temps."
+  urlprimerallico: "curs/jekyll-introduction/"
+
+
