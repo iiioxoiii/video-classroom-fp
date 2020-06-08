@@ -3,21 +3,24 @@ layout: about
 title: "about"
 ---
 
-Aquest site ha sigut fet des de Barcelona durant el mes de maig per un aficionat que li agrada programar i des del confinament de la COVID-19. El site esta fet amb **Jekyll** i és molt útil per poder organitzar continguts de vídeo del YouTube en format de **col·leccions per curs** per veure'ls en ordinador de sobretaula o tablet.
+Aquest site ha sigut fet des de Barcelona durant el mes de maig per algú que li agrada programar i des del confinament de la **COVID-19**. El site esta fet amb **Jekyll** i és molt útil per poder organitzar **vídeos** en format de **col·leccions per curs** per veure'ls en ordinador de sobretaula o tablet. **Pots descarregar-te'l i adaptar-lo a les teves necessitats.**
 
+### Què vol dir que *«Pots descarregar-te'l i adaptar-lo a les teves necessitats.»*?
+Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i pujar-lo perquè tothom pugui veure'l.
 
 ### Disseny
 
-Consisteix en una presentació per mostrar **les lliçons** agrupades per **mòduls** o cursos,  amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/). 
-
-### Pujar continguts
-
-Per pujar continguts només cal crear **un arxiu per curs** i **un arxiu per lliçó**. La plantilla de Jekyll fa la resta: agrupa totes les lliçons del curs, les mostra ordenades i paginades. 
+Consisteix en una presentació per mostrar **les lliçons** agrupades per **mòduls** o cursos,  amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/).  
 
 ### Funcionament
 
 El sistema **Jekyll** funciona a partir d'unes plantilles i uns scripts, que a partir d'uns arxius que nosaltres creeem
 d'una manera molt simple,  genera pàgines estàtiques. Aquests sistemes s'anomenen **generadors de pàgines estàtiques** *(Static Pages Generators)*. **Jekyll** és un de [molts](https://www.staticgen.com/) generadors de pàgines estàtiques. 
+
+### Com genero els continguts dels «cursos» o les «lliçons»?
+
+Creant **un arxiu per curs** i **un arxiu per lliçó** amb un editor de textos. Un cop guardats tots els arxius de lliçons i cursos, es puja tot el projecte al **Github** i tachan!! Site desplegat!
+
 
 ### Per què fer-ho amb Jekyll?
 
@@ -46,8 +49,6 @@ El resultat és possible perquè s'ha fet amb **codi lliure**, és a dir, eines 
 <track kind="subtitles" label="português do Brasil" srclang="pt-br" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.pt-br.vtt">
 <track kind="subtitles" label="chinese" srclang="lt" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.zh-cn.vtt">
 </video>
-
-
 
 
 ### Com puc instal·lar-me aquest sistema?
@@ -181,4 +182,6 @@ Sí. **Jekyll** és molt versàtil i disposa de moltes opcions. Es poden publica
 ### Es pot dir que també és un *blog*?
 
 Sí. A més, amb el **Jekyll** tenim la possibilitat [d'importar continguts ](https://import.jekyllrb.com/) de bases de dades de molts gestors de continguts, com Wordpress, Drupal, Joomla, Behance entre d'altres.
+
+
 
