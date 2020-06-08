@@ -8,6 +8,9 @@ Aquest site ha sigut fet des de Barcelona durant el mes de maig per algú que li
 ### Què vol dir que *«Pots descarregar-te'l i adaptar-lo a les teves necessitats.»*?
 Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i torna-lo a pujar.
 
+### Com descarregar-lo, modificar-lo i tornar-lo a pujar?
+El procés de descàrrega, de creació del teu propi *site* i posterior pujada i actualitzacions es fa servir el sistema de control de versions **git**.
+
 ### Disseny
 
 Consisteix en una presentació per mostrar **les lliçons** agrupades per **mòduls** o cursos,  amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/).  

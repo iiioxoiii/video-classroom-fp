@@ -1,8 +1,8 @@
 - pagina: inici 
   url: /video-classroom-fp/
 
-# - pagina: moodle
-#  url: https://educaciodigital.cat/ea-llotja/moodle/
+- pagina: moodle escola
+  url: https://educaciodigital.cat/ea-llotja/moodle/
 
 - pagina: about
   url: /video-classroom-fp/about.html
