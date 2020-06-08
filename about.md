@@ -8,16 +8,15 @@ Aquest site ha sigut fet des de Barcelona durant el mes de maig per un aficionat
 
 ### Disseny
 
-Consisteix en una presentació per mostrar d'un canals de video i lliçons per cada vídeo, amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/). 
+Consisteix en una presentació per mostrar **les lliçons** agrupades per **mòduls** o cursos,  amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/). 
 
 ### Pujar continguts
 
-Per pujar continguts només cal crear **un arxiu per curs** i **un arxiu per lliçó**. La plantilla de Jekyll fa la resta.
-Agrupa totes les lliçons i les mostra ordenades. 
+Per pujar continguts només cal crear **un arxiu per curs** i **un arxiu per lliçó**. La plantilla de Jekyll fa la resta: agrupa totes les lliçons del curs, les mostra ordenades i paginades. 
 
 ### Funcionament
 
-El sistema **Jekyll** funciona a partir d'unes plantilles i uns scripts que, a partir d'uns arxius que nosaltres creeem
+El sistema **Jekyll** funciona a partir d'unes plantilles i uns scripts, que a partir d'uns arxius que nosaltres creeem
 d'una manera molt simple,  genera pàgines estàtiques. Aquests sistemes s'anomenen **generadors de pàgines estàtiques** *(Static Pages Generators)*. **Jekyll** és un de [molts](https://www.staticgen.com/) generadors de pàgines estàtiques. 
 
 ### Per què fer-ho amb Jekyll?
