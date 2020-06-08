@@ -6,7 +6,7 @@ title: "about"
 Aquest site ha sigut fet des de Barcelona durant el mes de maig per algú que li agrada programar i des del confinament de la **COVID-19**. El site esta fet amb **Jekyll** i és molt útil per poder organitzar **vídeos** en format de **col·leccions per curs** per veure'ls en ordinador de sobretaula o tablet. **Pots descarregar-te'l i adaptar-lo a les teves necessitats.**
 
 ### Què vol dir que *«Pots descarregar-te'l i adaptar-lo a les teves necessitats.»*?
-Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i pujar-lo perquè tothom pugui veure'l.
+Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i torna-lo a pujar.
 
 ### Disseny
 
@@ -14,19 +14,19 @@ Consisteix en una presentació per mostrar **les lliçons** agrupades per **mòd
 
 ### Funcionament
 
-El sistema **Jekyll** funciona a partir d'unes plantilles i uns scripts, que a partir d'uns arxius que nosaltres creeem
-d'una manera molt simple,  genera pàgines estàtiques. Aquests sistemes s'anomenen **generadors de pàgines estàtiques** *(Static Pages Generators)*. **Jekyll** és un de [molts](https://www.staticgen.com/) generadors de pàgines estàtiques. 
+El sistema **Jekyll** funciona a partir d'unes plantilles i uns scripts, que a partir d'uns arxius que nosaltres creem
+d'una manera molt simple,  genera pàgines estàtiques. Aquests sistemes s'anomenen **generadors de pàgines estàtiques** *(Static Pages Generators)*. **Jekyll** és un de [molts](https://www.staticgen.com/) generadors de pàgines estàtiques que existeixen.
 
 ### Com genero els continguts dels «cursos» o les «lliçons»?
 
-Creant **un arxiu per curs** i **un arxiu per lliçó** amb un editor de textos. Un cop guardats tots els arxius de lliçons i cursos, es puja tot el projecte al **Github** i tachan!! Site desplegat!
+Creant **un arxiu per curs** i **un arxiu per lliçó** amb un editor de textos. Un cop guardats tots els arxius de lliçons i cursos, els pujem conjuntament amb tot el projecte al **Github** i tachan!! El site es desplega automàticament.
 
 
 ### Per què fer-ho amb Jekyll?
 
 Perquè és una sol·lució a la necessitat d'allotjar continguts ordenats, actualitzables, sense bases de dades, que puguin ser generats des de qualsevol plataforma amb un simple editor de textos. Els *sites* poden ser allotjats gratuitament al **Gitlab** o al **GitHub** i poden ser copiats i replicats.
 
-El resultat és possible perquè s'ha fet amb **codi lliure**, és a dir, eines que **no es poden vendre** i desenvolupades per mil·lers de persones. Sabies que la majoria d'ordinadors del món funcionen amb el **sistema operatiu lliure** [GNU/Linux](https://www.gnu.org/)?
+Aquestes eines es fonamenten sobre el paradigma del **codi lliure**, és a dir, eines que **no es poden vendre**, que s'escapen de la lògica del mercat però que el mercat també se n'aprofita i desenvolupades per mil·lers de persones durant els darrers 30 anys. Sabies que la majoria d'ordinadors del món funcionen amb el **sistemes operatius lliures** [GNU/Linux](https://www.gnu.org/)?
 
 <video style="width: 100%;" controls="controls" poster="//static.fsf.org/nosvn/FSF30-video/fsf30-poster.png" crossorigin="anonymous">
 <source src="//static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm" type="video/webm">
