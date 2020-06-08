@@ -9,9 +9,9 @@ Aquest site ha sigut fet des de Barcelona durant el mes de maig per algú que li
 Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i torna-lo a pujar.
 
 ### Com descarregar-lo i tornar-lo a pujar?
-El procés de descàrrega d'aquest *site* i posterior pujada després de la modificació es porta a terme amb el sistema de control de versions **git**. També es fa servir el git enregistrar els canvis o les actualitzacions.
+El procés de descàrrega d'aquest *site* i posterior pujada després de la modificació es porta a terme amb el sistema de control de versions **git**. També es fa servir el **git** per enregistrar els canvis o les actualitzacions del *site*
 
-[::link al repositori::](https://github.com/iiioxoiii/video-classroom-fp)
+[**::descarrega't el repositori::**](https://github.com/iiioxoiii/video-classroom-fp)
 
 
 ### Disseny
