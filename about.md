@@ -8,8 +8,11 @@ Aquest site ha sigut fet des de Barcelona durant el mes de maig per algú que li
 ### Què vol dir que *«Pots descarregar-te'l i adaptar-lo a les teves necessitats.»*?
 Doncs tot aquest lloc, el *site*, pots descarregar-te'l al teu ordinador, modificar-lo al teu gust, crear les teves llistes, els teus cursos i torna-lo a pujar.
 
-### Com descarregar-lo, modificar-lo i tornar-lo a pujar?
-El procés de descàrrega, de creació del teu propi *site* i posterior pujada i actualitzacions es fa servir el sistema de control de versions **git**.
+### Com descarregar-lo i tornar-lo a pujar?
+El procés de descàrrega d'aquest *site* i posterior pujada després de la modificació es porta a terme amb el sistema de control de versions **git**. També es fa servir el git enregistrar els canvis o les actualitzacions.
+
+[::link al repositori::](https://github.com/iiioxoiii/video-classroom-fp)
+
 
 ### Disseny
 
