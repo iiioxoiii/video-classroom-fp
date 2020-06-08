@@ -76,10 +76,12 @@ Els links de la part superior del site.
 </pre>
 </div>
 
+
+Això s'interpreta aixi:
+
 ![](/images/capturabar.png)
 
 
-Això s'interpreta aixi:
 
 
 
