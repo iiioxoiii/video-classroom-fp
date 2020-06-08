@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+---
+layout: default
+title: content-lessons
+---
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="/video-classroom-fp/assets/css/main.css">
-
-
-  </head>
-
-  <body>
-
-    <div class="contenidor-cursos">
-      <div class="header-logo">
-        <a href="{{page.default}}">
-          <img src="https://iiioxoiii.github.io/video-classroom-fp/images/vuemastery.svg
-" alt="{{ site.title }}" class=logo></a>
-        <p>{{ page.index }}</p>
-      </div>
-      <div class="navegacio">
-          {% for item in site.data.menu %}
-            <div class=menu-item>
-              <a href="{{ item.url }}">{{ item.pagina }}</a>
-            </div>
-          {% endfor %}
-      </div>
-    </div>
-
-    <div class="container">
+<div class="container">
 
       <div class="titol-curs">{{ page.curs }}
       </div>
@@ -131,26 +106,3 @@
           </div>
         </div>
       </div>
-
-
-      <div class="footer">
-        <div class="caixa-contate">
-          <div class="footer-logo">
-            <a href="{{page.default}}">
-          <img src="https://iiioxoiii.github.io/video-classroom-fp/images/vuemastery.svg
-" alt="{{ site.title }}" class=logo></a>
-        
-        <div class="text-caixa-contacte" >
-            {{ site.author }}
-        </div>
-      
-        <div class="text-caixa-contacte">
-              {{ site.email }}
-        </div>
-    </div> 
-
-    </div>
-
-    
-  </body>
-</html>

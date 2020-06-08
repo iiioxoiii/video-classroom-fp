@@ -6,7 +6,7 @@
   ratlletes: "Master"
   descripcio: "Primer bloc de bandes del segell de música «El Mamut Traçut». El segell està format per grups essencials
               de l'escena independent catalana i també per bandes internacionals." 
-  urlprimerallico: "curs/les-atxes/"
+  urlprimerallico: "les-atxes/"
 
 - nom: "El Mamut Traçut (II)"
   imatge: "images/elmamut.svg"
@@ -16,7 +16,7 @@
   ratlletes: "Master"
   descripcio: Primer bloc de bandes del segell de música «El Mamut Traçut». El segell està format per grups essencials
               de l'escena independent catalana i també per bandes internacionals."
-  urlprimerallico: "curs/el-mamut-tracut-2-estruc/"
+  urlprimerallico: "el-mamut-tracut-2-estruc/"
 
 - nom: "The Century of Self"
   imatge: "images/curs03.svg"
@@ -27,7 +27,7 @@
   descripcio: "La història entre Sigmund Freud i el seu nebot Endward Bernays. Bernays va 
               inventar les relacions públiques com professió als anys 20 i va ser la ser
               la primera persona en fer servir les idees de Freud per manipular les masses."
-  urlprimerallico: "curs/happiness-machines/"
+  urlprimerallico: "happiness-machines/"
 
 - nom: "Jekyll"
   imatge: "images/jekyll.svg"
@@ -38,6 +38,6 @@
   descripcio: "Jekyll és un framework per generar sites estàtics amb molt pocs recursos. Funciona amb Ruby i és molt útil.
   En el curs s'estudien els conceptes bàsics que permeten fer sites amb Jekyll, és a dir, poder tenir una web totalment funcional,
   actualitzable i amb poc temps."
-  urlprimerallico: "curs/jekyll-introduction/"
+  urlprimerallico: "jekyll-introduction/"
 
 
