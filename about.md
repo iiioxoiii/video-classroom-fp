@@ -5,6 +5,7 @@ title: "about"
 
 Aquest site ha sigut fet des de Barcelona durant el mes de maig per un aficionat que li agrada programar i des del confinament de la COVID-19. El site esta fet amb **Jekyll** i és molt útil per poder organitzar continguts de vídeo del YouTube en format de **col·leccions per curs** per veure'ls en ordinador de sobretaula o tablet.
 
+
 ### Disseny
 
 Consisteix en una presentació per mostrar d'un canals de video i lliçons per cada vídeo, amb l'estil dels desenvolupadors de [vuemastery.com](https://www.vuemastery.com/) o [edX](https://www.edx.org/). 
@@ -22,6 +23,33 @@ d'una manera molt simple,  genera pàgines estàtiques. Aquests sistemes s'anome
 ### Per què fer-ho amb Jekyll?
 
 Perquè és una sol·lució a la necessitat d'allotjar continguts ordenats, actualitzables, sense bases de dades, que puguin ser generats des de qualsevol plataforma amb un simple editor de textos. Els *sites* poden ser allotjats gratuitament al **Gitlab** o al **GitHub** i poden ser copiats i replicats.
+
+El resultat és possible perquè s'ha fet amb **codi lliure**, és a dir, eines que **no es poden vendre** i desenvolupades per mil·lers de persones. Sabies que la majoria d'ordinadors del món funcionen amb el **sistema operatiu lliure** [GNU/Linux](https://www.gnu.org/)?
+
+<video style="width: 100%;" controls="controls" poster="//static.fsf.org/nosvn/FSF30-video/fsf30-poster.png" crossorigin="anonymous">
+<source src="//static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm" type="video/webm">
+<track kind="subtitles" label="Català" srclang="ca" src="https://raw.githubusercontent.com/iiioxoiii/translations/master/FSF_30_ca.vtt" default="default">
+<track kind="subtitles" label="English" srclang="en" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.en.vtt" default="default">
+<track kind="subtitles" label="Spanish" srclang="es" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_es.vtt">
+<track kind="subtitles" label="French" srclang="fr" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.fr.vtt">
+<track kind="subtitles" label="German" srclang="en" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.de.vtt">
+<track kind="subtitles" label="русский" srclang="ru" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.ru.vtt">
+<track kind="subtitles" label="italiano" srclang="it" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.it.vtt">
+<track kind="subtitles" label="português" srclang="pt" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.pt.vtt">
+<track kind="subtitles" label="српски" srclang="sr" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.sr.vtt">
+<track kind="subtitles" label="fārsi" srclang="fa" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.fa.vtt">
+<track kind="subtitles" label="nederlands" srclang="nl" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.nl.vtt">
+<track kind="subtitles" label="magyar" srclang="hu" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.hu.vtt">
+<track kind="subtitles" label="svenska" srclang="se" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.se.vtt">
+<track kind="subtitles" label="română" srclang="ro" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.ro.vtt">
+<track kind="subtitles" label="lietuvių" srclang="lt" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.lt.vtt">
+<track kind="subtitles" label="hebrew" srclang="lt" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.he.vtt">
+<track kind="subtitles" label="português do Brasil" srclang="pt-br" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.pt-br.vtt">
+<track kind="subtitles" label="chinese" srclang="lt" src="//static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.zh-cn.vtt">
+</video>
+
+
+
 
 ### Com puc instal·lar-me aquest sistema?
 
@@ -80,8 +108,6 @@ Els links de la part superior del site.
 Això s'interpreta aixi:
 
 ![](/images/capturabar.png)
-
-
 
 
 
